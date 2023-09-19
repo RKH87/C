@@ -1,4 +1,4 @@
-void ChangeData(int a, int b)
+void ChangeData(int a, int b) //假如a,b是全局变量，若不是，则可以设置返回值或者传入指针
 {
   a=a^b;
   b=a^b;
